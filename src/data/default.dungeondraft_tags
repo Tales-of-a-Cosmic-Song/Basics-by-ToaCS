@@ -30,7 +30,8 @@
 			"textures/objects/worktop_simple.png",
 			"textures/objects/worktop_end.png",
 			"textures/objects/worktop_angle.png",
-			"textures/objects/worktop_middle.png"
+			"textures/objects/worktop_middle.png",
+			"textures/objects/toilet.png"
 		],
 		"Bed": [
 			"textures/objects/bed_double.png",

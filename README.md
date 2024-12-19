@@ -3,6 +3,9 @@
 Dungeondraft Asset Pack with very simple black and white assets.
 Also available on [CartographyAssets](https://cartographyassets.com/assets/54539/basics-by-toacs/)
 
+![Preview](./src/preview.png)
+![Basics by ToaCS](./basics_by_toacs_example.png)
+
 # License
 
 Basics by ToaCS © 2024-present by Tales of a Cosmic Song are licensed under CC-BY-4.0

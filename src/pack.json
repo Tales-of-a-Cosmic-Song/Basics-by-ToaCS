@@ -1,10 +1,10 @@
 {
 	"name": "Basics by ToaCS",
 	"id": "d8egHgB3",
-	"version": "1",
+	"version": "1.1",
 	"author": "Tales of a Cosmic Song",
 	"keywords": "",
-	"allow_3rd_party_mapping_software_to_read": false,
+	"allow_3rd_party_mapping_software_to_read": true,
 	"custom_color_overrides": {
 		"enabled": false,
 		"min_redness": 0.1,
