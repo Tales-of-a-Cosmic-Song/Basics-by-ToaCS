@@ -1,0 +1,6 @@
+{
+	"path": "textures/tilesets/simple/custom_simple.png",
+	"name": "Simple",
+	"type": "custom_color",
+	"color": "ffffff"
+}

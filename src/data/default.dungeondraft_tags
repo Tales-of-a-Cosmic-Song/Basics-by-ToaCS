@@ -1,0 +1,69 @@
+{
+	"tags": {
+		"Basics_ToaCS": [
+			"textures/objects/armchair.png",
+			"textures/objects/bed_double.png",
+			"textures/objects/bed_infant.png",
+			"textures/objects/bed_king.png",
+			"textures/objects/bed_single.png",
+			"textures/objects/bed_single_large.png",
+			"textures/objects/chair.png",
+			"textures/objects/dining_table_for_2_square.png",
+			"textures/objects/dining_table_for_4_rectangle.png",
+			"textures/objects/dining_table_for_4_round.png",
+			"textures/objects/dining_table_for_4_square.png",
+			"textures/objects/dining_table_for_6_rectangle.png",
+			"textures/objects/dining_table_for_6_round.png",
+			"textures/objects/dining_table_for_8_rectangle.png",
+			"textures/objects/dining_table_for_8_round.png",
+			"textures/objects/dining_table_for_8_square.png",
+			"textures/objects/dining_table_for_10_rectangle.png",
+			"textures/objects/sofa.png",
+			"textures/objects/sofa_angle.png",
+			"textures/objects/sofa_end.png",
+			"textures/objects/sofa_middle.png",
+			"textures/objects/stool.png",
+			"textures/objects/bathtub.png",
+			"textures/objects/shower.png",
+			"textures/objects/sink_simple.png",
+			"textures/objects/sink_extendable.png",
+			"textures/objects/worktop_simple.png",
+			"textures/objects/worktop_end.png",
+			"textures/objects/worktop_angle.png",
+			"textures/objects/worktop_middle.png"
+		],
+		"Bed": [
+			"textures/objects/bed_double.png",
+			"textures/objects/bed_infant.png",
+			"textures/objects/bed_king.png",
+			"textures/objects/bed_single.png",
+			"textures/objects/bed_single_large.png"
+		],
+		"Chair": [
+			"textures/objects/armchair.png",
+			"textures/objects/chair.png",
+			"textures/objects/sofa.png",
+			"textures/objects/sofa_angle.png",
+			"textures/objects/sofa_end.png",
+			"textures/objects/sofa_middle.png",
+			"textures/objects/stool.png"
+		],
+		"Table": [
+			"textures/objects/dining_table_for_2_square.png",
+			"textures/objects/dining_table_for_4_rectangle.png",
+			"textures/objects/dining_table_for_4_round.png",
+			"textures/objects/dining_table_for_4_square.png",
+			"textures/objects/dining_table_for_6_rectangle.png",
+			"textures/objects/dining_table_for_6_round.png",
+			"textures/objects/dining_table_for_8_rectangle.png",
+			"textures/objects/dining_table_for_8_round.png",
+			"textures/objects/dining_table_for_8_square.png",
+			"textures/objects/dining_table_for_10_rectangle.png"
+		]
+	},
+	"sets": {
+		"Basics_ToaCS": [
+			"Basics_ToaCS"
+		]
+	}
+}
