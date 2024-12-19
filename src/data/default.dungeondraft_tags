@@ -38,8 +38,10 @@
 			"textures/objects/end_table_rectangle.png",
 			"textures/objects/wardrobe_small.png",
 			"textures/objects/wardrobe_large.png",
-			"textures/objects/shelf_small.png",
-			"textures/objects/shelf_large.png"
+			"textures/objects/shelf_simple.png",
+			"textures/objects/shelf_end.png",
+			"textures/objects/shelf_middle.png",
+			"textures/objects/shelf_angle.png"
 		],
 		"Bed": [
 			"textures/objects/bed_double.png",
