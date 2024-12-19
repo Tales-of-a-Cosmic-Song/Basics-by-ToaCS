@@ -1,6 +1,7 @@
 # Basics by ToaCS
 
-Dungeondraft Asset Pack with very simple black and white assets
+Dungeondraft Asset Pack with very simple black and white assets.
+Also available on [CartographyAssets](https://cartographyassets.com/assets/54539/basics-by-toacs/)
 
 # License
 
