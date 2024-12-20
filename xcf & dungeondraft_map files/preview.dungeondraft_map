@@ -14,10 +14,10 @@
 		"uses_default_assets": true,
 		"asset_manifest": [
 			{
-				"name": "Basics by ToaCS",
+				"name": "Test",
 				"id": "d8egHgB3",
-				"version": "1.1",
-				"author": "Tales of a Cosmic Song",
+				"version": "1",
+				"author": "",
 				"keywords": "",
 				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
@@ -44,7 +44,7 @@
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 992, 950 )",
+			"camera_position": "Vector2( 1050, 969 )",
 			"camera_zoom": 2,
 			"guide_position": "null",
 			"trace_image": null,
@@ -161,7 +161,7 @@
 				"mode": "tags",
 				"scroll": 0,
 				"selected": [
-					"res://packs/d8egHgB3/textures/objects/dining_table_for_8_rectangle.png"
+					"res://packs/d8egHgB3/textures/objects/armchair_small.png"
 				],
 				"search_strictness": 0.5
 			},
@@ -174,7 +174,7 @@
 		"format": 3,
 		"width": 8,
 		"height": 8,
-		"next_node_id": "26",
+		"next_node_id": "4a",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -197,7 +197,7 @@
 			"0": {
 				"label": "Ground",
 				"environment": {
-					"baked_lighting": false,
+					"baked_lighting": true,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -291,26 +291,26 @@
 						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
 						"2": "res://textures/tilesets/simple/tileset_concrete_large.png",
 						"3": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"5": "res://textures/tilesets/simple/tileset_concrete.png",
-						"6": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"7": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"8": "res://textures/tilesets/simple/tileset_carpet.png",
-						"9": "res://textures/tilesets/simple/tileset_cobble.png",
-						"10": "res://textures/tilesets/simple/tileset_cave.png",
-						"11": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"14": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"4": "res://textures/tilesets/simple/tileset_cave.png",
+						"5": "res://textures/tilesets/simple/tileset_carpet.png",
+						"6": "res://textures/tilesets/simple/tileset_concrete.png",
+						"7": "res://textures/tilesets/simple/tileset_cobble.png",
+						"8": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"9": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"13": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"14": "res://textures/tilesets/simple/tileset_roman_worn.png",
 						"15": "res://textures/tilesets/simple/tileset_sewers.png",
-						"16": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
 						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_ornate.png",
-						"19": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"23": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"18": "res://textures/tilesets/simple/tileset_diamond.png",
+						"19": "res://textures/tilesets/simple/tileset_ornate.png",
+						"20": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"21": "res://textures/tilesets/simple/tileset_straw.png",
+						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
 						"24": "res://packs/d8egHgB3/textures/tilesets/simple/custom_simple.png"
 					}
 				},
@@ -318,6 +318,45 @@
 
 				],
 				"walls": [
+					{
+						"points": "PoolVector2Array( 1792, 1408, 1152, 1408, 1152, 1792 )",
+						"texture": "res://packs/d8egHgB3/textures/walls/custom_simple.png",
+						"color": "ff000000",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": false,
+						"node_id": "44",
+						"portals": [
+							{
+								"position": "Vector2( 1632, 1408 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/d8egHgB3/textures/portals/custom_simple_door_open.png",
+								"radius": 104,
+								"point_index": 0,
+								"wall_id": "44",
+								"wall_distance": 0.25,
+								"closed": true,
+								"node_id": "45"
+							},
+							{
+								"position": "Vector2( 1152, 1664 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/d8egHgB3/textures/portals/custom_simple_door_small.png",
+								"radius": 104,
+								"point_index": 1,
+								"wall_id": "44",
+								"wall_distance": 1.666667,
+								"closed": true,
+								"node_id": "47"
+							}
+						]
+					},
 					{
 						"points": "PoolVector2Array( 1792, 1792, 256, 1792, 256, 256, 1792, 256 )",
 						"texture": "res://packs/d8egHgB3/textures/walls/custom_simple.png",
@@ -506,19 +545,8 @@
 				],
 				"objects": [
 					{
-						"position": "Vector2( 768, 768 )",
-						"rotation": -1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/d8egHgB3/textures/objects/armchair.png",
-						"layer": 100,
-						"shadow": false,
-						"block_light": false,
-						"node_id": "25"
-					},
-					{
-						"position": "Vector2( 896, 1088 )",
-						"rotation": 0,
+						"position": "Vector2( 1376, 928 )",
+						"rotation": 1.570795,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/sink_extendable.png",
@@ -528,9 +556,9 @@
 						"node_id": "1e"
 					},
 					{
-						"position": "Vector2( 1024, 1280 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
+						"position": "Vector2( 640, 1152 )",
+						"rotation": 3.141589,
+						"scale": "Vector2( 1, -1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/sofa_end.png",
 						"layer": 100,
@@ -539,9 +567,9 @@
 						"node_id": "24"
 					},
 					{
-						"position": "Vector2( 1024, 1536 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1, 1 )",
+						"position": "Vector2( 384, 1152 )",
+						"rotation": 1.570795,
+						"scale": "Vector2( 1, -1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/sofa_angle.png",
 						"layer": 100,
@@ -550,8 +578,8 @@
 						"node_id": "23"
 					},
 					{
-						"position": "Vector2( 1408, 1344 )",
-						"rotation": -1.570793,
+						"position": "Vector2( 1120, 1184 )",
+						"rotation": -0,
 						"scale": "Vector2( 1, -1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/worktop_end.png",
@@ -561,8 +589,8 @@
 						"node_id": "22"
 					},
 					{
-						"position": "Vector2( 1408, 1088 )",
-						"rotation": 1.570796,
+						"position": "Vector2( 1376, 1184 )",
+						"rotation": 3.141589,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/worktop_angle.png",
@@ -572,8 +600,8 @@
 						"node_id": "21"
 					},
 					{
-						"position": "Vector2( 640, 1088 )",
-						"rotation": 0,
+						"position": "Vector2( 1376, 672 )",
+						"rotation": 1.570795,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/worktop_end.png",
@@ -583,18 +611,7 @@
 						"node_id": "20"
 					},
 					{
-						"position": "Vector2( 1152, 1088 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/d8egHgB3/textures/objects/worktop_middle.png",
-						"layer": 100,
-						"shadow": false,
-						"block_light": false,
-						"node_id": "1f"
-					},
-					{
-						"position": "Vector2( 768, 512 )",
+						"position": "Vector2( 992, 544 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
@@ -605,7 +622,7 @@
 						"node_id": "1d"
 					},
 					{
-						"position": "Vector2( 704, 448 )",
+						"position": "Vector2( 896, 448 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
@@ -616,7 +633,7 @@
 						"node_id": "1c"
 					},
 					{
-						"position": "Vector2( 768, 384 )",
+						"position": "Vector2( 992, 352 )",
 						"rotation": 1.570796,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
@@ -627,8 +644,8 @@
 						"node_id": "1b"
 					},
 					{
-						"position": "Vector2( 832, 448 )",
-						"rotation": 3.141593,
+						"position": "Vector2( 1088, 448 )",
+						"rotation": -3.141592,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/chair.png",
@@ -638,7 +655,7 @@
 						"node_id": "1a"
 					},
 					{
-						"position": "Vector2( 448, 576 )",
+						"position": "Vector2( 416, 544 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
@@ -671,7 +688,7 @@
 						"node_id": "11"
 					},
 					{
-						"position": "Vector2( 1664, 1024 )",
+						"position": "Vector2( 1664, 928 )",
 						"rotation": 1.570796,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
@@ -682,8 +699,8 @@
 						"node_id": "15"
 					},
 					{
-						"position": "Vector2( 768, 1536 )",
-						"rotation": -3.141593,
+						"position": "Vector2( 384, 1408 )",
+						"rotation": -1.570798,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/sofa_middle.png",
@@ -693,10 +710,10 @@
 						"node_id": "16"
 					},
 					{
-						"position": "Vector2( 512, 1536 )",
-						"rotation": 3.141593,
-						"scale": "Vector2( -1, 1 )",
-						"mirror": true,
+						"position": "Vector2( 384, 1664 )",
+						"rotation": -1.570798,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/sofa_end.png",
 						"layer": 100,
 						"shadow": false,
@@ -704,8 +721,8 @@
 						"node_id": "18"
 					},
 					{
-						"position": "Vector2( 768, 448 )",
-						"rotation": 3.141593,
+						"position": "Vector2( 992, 448 )",
+						"rotation": -3.141592,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
 						"texture": "res://packs/d8egHgB3/textures/objects/dining_table_for_2_square.png",
@@ -713,6 +730,215 @@
 						"shadow": false,
 						"block_light": false,
 						"node_id": "19"
+					},
+					{
+						"position": "Vector2( 1696, 1152 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/toilet.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "27"
+					},
+					{
+						"position": "Vector2( 1536, 1664 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/wardrobe_large.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "28"
+					},
+					{
+						"position": "Vector2( 928, 736 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/shelf_angle.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2a"
+					},
+					{
+						"position": "Vector2( 928, 992 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/shelf_end.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2b"
+					},
+					{
+						"position": "Vector2( 1184, 736 )",
+						"rotation": -0,
+						"scale": "Vector2( -1, 1 )",
+						"mirror": true,
+						"texture": "res://packs/d8egHgB3/textures/objects/shelf_end.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2c"
+					},
+					{
+						"position": "Vector2( 960, 768 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2d"
+					},
+					{
+						"position": "Vector2( 1056, 768 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2e"
+					},
+					{
+						"position": "Vector2( 1152, 768 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "2f"
+					},
+					{
+						"position": "Vector2( 1248, 768 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "30"
+					},
+					{
+						"position": "Vector2( 960, 864 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "31"
+					},
+					{
+						"position": "Vector2( 960, 960 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "32"
+					},
+					{
+						"position": "Vector2( 960, 1056 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/stool.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "33"
+					},
+					{
+						"position": "Vector2( 704, 1408 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/coffee_table.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "34"
+					},
+					{
+						"position": "Vector2( 640, 384 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/end_table_rectangle.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "35"
+					},
+					{
+						"position": "Vector2( 736, 928 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/chair.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "36"
+					},
+					{
+						"position": "Vector2( 736, 800 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/chair.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "37"
+					},
+					{
+						"position": "Vector2( 736, 672 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/chair.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "38"
+					},
+					{
+						"position": "Vector2( 1344, 1536 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/bed_infant.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "48"
+					},
+					{
+						"position": "Vector2( 704, 1664 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/d8egHgB3/textures/objects/armchair_small.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "49"
 					}
 				],
 				"lights": [
@@ -742,7 +968,7 @@
 		"snappy_mod": {
 			"custom_snap_enabled": true,
 			"advanced_section_enabled": true,
-			"active_preset": "1/4th (64px)",
+			"active_preset": "1/8th (32px)",
 			"custom_preset": {
 				"preset_name": "Custom",
 				"radial_mode_to_corner": false,
