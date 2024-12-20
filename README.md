@@ -1,6 +1,6 @@
 # Basics by ToaCS
 
-Minimalist Dungeondraft Asset Pack with very simple black and white assets.
+Minimalist Dungeondraft Asset Pack with very simple black and white assets.  
 Also available on [CartographyAssets](https://cartographyassets.com/assets/54539/basics-by-toacs/)
 
 ![Preview](./src/preview.png)
